@@ -19,7 +19,7 @@
 #include "FwBox_NtpTime.h"
 
 #define DEVICE_TYPE 12
-#define FIRMWARE_VERSION "1.1.2"
+#define FIRMWARE_VERSION "1.1.3"
 
 #define PIN_LED 2
 
