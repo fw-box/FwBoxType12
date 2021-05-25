@@ -19,7 +19,7 @@
 #include "FwBox_NtpTime.h"
 
 #define DEVICE_TYPE 12
-#define FIRMWARE_VERSION "1.1.8"
+#define FIRMWARE_VERSION "1.1.9"
 
 #define PIN_LED 2
 
@@ -67,7 +67,7 @@ int DisplayMode = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //
   // Initialize the fw-box core (early stage)
